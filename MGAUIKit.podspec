@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.name         = "MGAUIKit"
   s.version      = "0.1"
-  s.summary      = "A short description of MGAUIKit."
+  s.summary      = "MGAUIKit is a swift library of UIKit replacements."
 
   s.description  = <<-DESC
                    A longer description of MGAUIKit in Markdown format.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   s.license      = "MIT"
   s.author             = { "Matt Green" => "mattgreen1977@gmail.com" }
-  s.social_media_url   = "http://twitter.com/Matt Green"
+  # s.social_media_url   = "http://twitter.com/Matt Green"
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/mcjg/MGAUIKit.git", :tag => s.version }
   s.source_files  = "MGAUIKit/MGAUIKit/*.swift"
