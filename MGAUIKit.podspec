@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MGAUIKit"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "MGAUIKit is a swift library of UIKit replacements."
 
   s.description  = <<-DESC
