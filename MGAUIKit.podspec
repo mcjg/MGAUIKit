@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MGAUIKit"
-  s.version      = "0.0.1"
+  s.version      = "0.1"
   s.summary      = "A short description of MGAUIKit."
 
   s.description  = <<-DESC
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.author             = { "Matt Green" => "mattgreen1977@gmail.com" }
   s.social_media_url   = "http://twitter.com/Matt Green"
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/mcjg/MGAUIKit.git", :tag => "0.0.1" }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/mcjg/MGAUIKit.git", :tag => s.version }
+  s.source_files  = "MGAUIKit/MGAUIKit/*.swift"
 
 
 end
