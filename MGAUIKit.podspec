@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "http://matthewgreenassociates.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE.txt" }
   s.author             = { "Matt Green" => "mattgreen1977@gmail.com" }
   s.social_media_url   = "http://twitter.com/Matt Green"
   s.platform     = :ios, "8.0"
